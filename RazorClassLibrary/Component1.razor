@@ -1,0 +1,194 @@
+﻿<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="my-component">
+    <h1 class="display-4">Welcome</h1>
+    This component is defined in the <strong>RazorClassLibrary</strong> library.
+</div>
+<br />
+
+<div>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+</div>
+<br/>
+
+<div class="card" style="width: 18rem;">
+    <img src="data:image/png;base64,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" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<br />
+<br />
+<div>
+    <label for="exampleColorInput" class="form-label">Color picker</label>
+    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+</div>
+
+<br />
+<br />
+<div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+            </label>
+        </div>
+        <div>
+            <label for="customRange1" class="form-label">Example range</label>
+            <input type="range" class="form-range" id="customRange1">
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<div>
+    <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">a</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">aexample.com</span>
+</div>
+
+<div class="mb-3">
+  <label for="basic-url" class="form-label">Your vanity URL</label>
+  <div class="input-group">
+    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+  </div>
+  <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-text">.00</span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+  <span class="input-group-text">a</span>
+  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">With textarea</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+</div>
+
+<br />
+<br />
+<div>
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input class="form-control" type="file" id="formFile">
+    </div>
+    <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple>
+    </div>
+    <div class="mb-3">
+        <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+        <input class="form-control" type="file" id="formFileDisabled" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="formFileSm" class="form-label">Small file input example</label>
+        <input class="form-control form-control-sm" id="formFileSm" type="file">
+    </div>
+    <div>
+        <label for="formFileLg" class="form-label">Large file input example</label>
+        <input class="form-control form-control-lg" id="formFileLg" type="file">
+    </div>
+    </div>
+
+<br />
+<br />
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

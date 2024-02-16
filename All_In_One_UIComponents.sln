@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspWebApp", "AspWebApp\AspWebApp.csproj", "{02487BC6-85F1-4809-916F-A633F668444D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary", "RazorClassLibrary\RazorClassLibrary.csproj", "{1F509E46-0E1A-468F-B386-03F56B6718AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_App", "Wpf_App\Wpf_App.csproj", "{89EF1727-5C16-481C-9415-C99E74D9AE26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiAppBlazor", "MauiAppBlazor\MauiAppBlazor.csproj", "{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02487BC6-85F1-4809-916F-A633F668444D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02487BC6-85F1-4809-916F-A633F668444D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02487BC6-85F1-4809-916F-A633F668444D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02487BC6-85F1-4809-916F-A633F668444D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F509E46-0E1A-468F-B386-03F56B6718AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F509E46-0E1A-468F-B386-03F56B6718AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F509E46-0E1A-468F-B386-03F56B6718AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F509E46-0E1A-468F-B386-03F56B6718AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EF1727-5C16-481C-9415-C99E74D9AE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EF1727-5C16-481C-9415-C99E74D9AE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EF1727-5C16-481C-9415-C99E74D9AE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EF1727-5C16-481C-9415-C99E74D9AE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F7D6C3-C4A6-433D-A8AA-94A851E6E750}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1422F555-B8D7-49B9-94B4-15F8CBE90B19}
+	EndGlobalSection
+EndGlobal
